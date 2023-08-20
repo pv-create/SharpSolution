@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Db/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Db.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Db.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Infrusutructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Infrusutructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrusutructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Db/1.0.0": {
+      "type": "project",
+      "path": "../Db/Db.csproj",
+      "msbuildProject": "../Db/Db.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Infrusutructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrusutructure/Infrusutructure.csproj",
+      "msbuildProject": "../Infrusutructure/Infrusutructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Db >= 1.0.0",
+      "Domain >= 1.0.0",
+      "Infrusutructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/pavelvilkov/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Application/Application.csproj",
+      "projectName": "Application",
+      "projectPath": "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Application/Application.csproj",
+      "packagesPath": "/Users/pavelvilkov/.nuget/packages/",
+      "outputPath": "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/pavelvilkov/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Db/Db.csproj": {
+              "projectPath": "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Db/Db.csproj"
+            },
+            "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Domain/Domain.csproj": {
+              "projectPath": "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Domain/Domain.csproj"
+            },
+            "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Infrusutructure/Infrusutructure.csproj": {
+              "projectPath": "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Infrusutructure/Infrusutructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
