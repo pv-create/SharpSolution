@@ -90,7 +90,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Domain/Domain.csproj": {
+                "projectPath": "/Users/pavelvilkov/Desktop/teacher-project/artem-pasha-project/SharpSolution/Domain/Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -102,6 +106,22 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
