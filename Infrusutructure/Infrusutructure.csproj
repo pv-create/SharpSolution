@@ -8,6 +8,8 @@
 
     <ItemGroup>
       <Folder Include="Mails" />
+      <Folder Include="RabitMq" />
+      <Folder Include="Redis" />
       <Folder Include="Reports" />
     </ItemGroup>
 
