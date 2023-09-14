@@ -1,6 +1,9 @@
 ﻿using Db.DbSettings;
+using Db.Interfaces;
+using Db.Repositiries;
 using Microsoft.EntityFrameworkCore;
 using Web.Configurations;
+using Web.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddAuthentication();
+
+builder.Services.AddScoped<IComplimentsRepository, ComplimentsRepository>();
 
 DatabaseCongiguration.Init(builder);
 

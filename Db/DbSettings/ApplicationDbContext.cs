@@ -11,4 +11,5 @@ public class ApplicationDbContext:DbContext
     {
     }
     public DbSet<Section> Sections { get; set; }
+    public DbSet<Compliment> Compliments { get; set; }
 }

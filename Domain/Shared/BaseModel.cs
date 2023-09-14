@@ -5,5 +5,5 @@ public class BaseModel
     /// <summary>
     /// идентификатор сущности
     /// </summary>
-    public Guid Id { get; set; }
+    public int Id { get; set; }
 }

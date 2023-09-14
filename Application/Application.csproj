@@ -12,4 +12,8 @@
       <ProjectReference Include="..\Infrusutructure\Infrusutructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Contracts" />
+    </ItemGroup>
+
 </Project>
